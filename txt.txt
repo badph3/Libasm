@@ -1,0 +1,7 @@
+Il progetto Libasm serve per:
+
+imparare assembly x86_64
+
+capire come funzionano le funzioni di libc
+
+collegare assembly + C
