@@ -23,12 +23,12 @@ void test_strcpy()
     printf("ft_strcpy: %s\n", dst2);
 }
 
-// void test_strcmp()
-// {
-//     printf("---- STRCMP ----\n");
-//     printf("strcmp: %d\n", strcmp("abc", "abd"));
-//     printf("ft_strcmp: %d\n", ft_strcmp("abc", "abd"));
-// }
+void test_strcmp()
+{
+    printf("---- STRCMP ----\n");
+    printf("strcmp: %d\n", strcmp("abc", "abd"));
+    printf("ft_strcmp: %d\n", ft_strcmp("abc", "abd"));
+}
 
 // void test_write()
 // {
@@ -72,7 +72,7 @@ int main()
 {
     test_strlen();
     test_strcpy();
-    // test_strcmp();
+    test_strcmp();
     // test_write();
     // test_read();
     // test_strdup();
