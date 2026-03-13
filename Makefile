@@ -9,10 +9,10 @@ CFLAGS = -Wall -Wextra -Werror -Iincludes
 SRC_DIR = src
 SRC = $(SRC_DIR)/ft_strlen.s \
       $(SRC_DIR)/ft_strcpy.s \
-      $(SRC_DIR)/ft_strcmp.s \
-      $(SRC_DIR)/ft_write.s \
-      $(SRC_DIR)/ft_read.s \
-      $(SRC_DIR)/ft_strdup.s
+      #$(SRC_DIR)/ft_strcmp.s \
+      #$(SRC_DIR)/ft_write.s \
+      #$(SRC_DIR)/ft_read.s \
+      #$(SRC_DIR)/ft_strdup.s
 
 OBJ = $(SRC:.s=.o)
 
